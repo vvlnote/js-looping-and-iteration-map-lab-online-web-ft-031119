@@ -10,7 +10,7 @@ function nameToAttributes() {
     let names = driver.split(" ");
     let obj = {};
     obj.firstname = names[0];
-    obj.lastname = name[1];
+    obj.lastname = names[1];
     return obj;
   })
 }
