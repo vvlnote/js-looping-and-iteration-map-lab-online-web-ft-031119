@@ -4,3 +4,13 @@ function lowerCaseDrivers(drivers) {
     return driver.toLowerCase();
   })
 }
+
+function nameToAttributes() {
+  return drivers.map(funtion(driver) {
+    let names = driver.split(" ");
+    let obj = {};
+    obj.firstname = names[0];
+    obj.lastname = name[1];
+    return obj;
+  })
+}
